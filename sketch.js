@@ -94,7 +94,7 @@ function draw() {
       gameState = END;
     }
     //escreva uma condição para a pontuação aumentar
-    if(obstaclesGroup.isTouching(kangaroo)){
+    if(shrubsGroup.isTouching(kangaroo)){
       score = score + 1;
       shrubsGroup.destroyEach();
     }
